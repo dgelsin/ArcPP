@@ -1,6 +1,15 @@
 # ArcPP - Archaeal Proteome Project
 
-Description coming soon.
+Modern proteomics approaches can explore whole proteomes within a single mass spectrometry (MS) run. However, the enormous amount of MS data generated often remains incompletely analyzed due to a lack of sophisticated bioinformatic tools and expertise needed from a diverse array of fields. In particular, in the field of microbiology, efforts to aggregate and integrate proteomic datasets have so far been missing. Thus, despite their relatively small genomes, the proteomes of most archaea remain incompletely characterized. This in turn undermines our ability to gain a greater understanding of archaeal cell biology. 
+
+Therefore, we have initiated the Archaeal Proteome Project (ArcPP), a community effort that works towards a comprehensive analysis of archaeal proteomes. Starting with the model archaeon Haloferax volcanii, using state-of-the-art bioinformatic tools, we have:
+* reanalyzed more than 23 Mio. spectra
+* optimized the analysis using parameter sweeps, multiple search engines implemented in Ursgal, and the combination of resultsthrough the combined PEP approach
+* thoroughly controlled false discovery rates for high confidence protein identifications using the picked protein FDR approach and limiting FDR to 0.5%
+* identified more than 40k peptides, corresponding to over 3000 proteins (>75% of the proteome) with a median sequence coverage of 50%
+
+Benefiting from the established bioinformatic infrastructure, we will follow up on this analysis focusing on H. volcanii proteogenomics as well as the characterization of various post-translational modifications. Furthermore, ArcPP will integrate quantitative results obtained from the individual datasets in order to identify common regulatory mechanisms. These studies on the H. volcanii proteome can serve as a blueprint for comprehensive proteomic analyses performed on a diverse range of archaea and bacteria.
+
 
 ## Citation
 
@@ -8,15 +17,22 @@ Coming soon.
 
 ## Installation
 
-Clone the shizznit.
+Get the latest version via GitHub:
+    | https://github.com/arcpp/arcpp
+
+as a .zip package:
+   | https://github.com/arcpp/arcpp/archive/master.zip
+
+or via git clone::
+   git clone https://github.com/arcpp/arcpp.git
 
 ## How to use
 
-Using the force for now you must.
+Description coming.
 
 ## Documentation
 
-Potentially readthedocs coming.
+As the project develops, a more extensive documentation via readthedocs will be included.
 
 ## Questions and Participation
 
@@ -27,12 +43,19 @@ For any contributions, fork us at https://github.com/arcpp/arcpp and open up pul
 
 Copyright 2019-today by authors and contributors in alphabetical order
 
+* Zach Adams
 * Rosana de Castro
+* Micaela Cerletti
 * Sébastien Ferreira-Cerca
+* Michael Hippler
+* Zivojin Jevtic
+* Robert Knüppel
+* Christof Lenz
 * Anita Marchfelder
 * Julie Maupin-Furlow
 * Friedhelm Pfeiffer
 * Mechthild Pohlschroder
+* Ansgar Poetsch
 * Stefan Schulze
 
 ## Contact
@@ -44,7 +67,7 @@ email: sschulze@sas.upenn.edu
 
 ## Disclaimer
 
-While all analyses for ArcPP have been performed with greatest care, errors in the underlying software, raw datasets or database cannot be rules out completely. Therefore, the source code used for this project is available here and should be inspected if in doubt or used to verify results. As common practive in science: be critical and never trust results blindly.
+While all analyses for ArcPP have been performed with greatest care, errors in the underlying software, raw datasets or database cannot be ruled out completely. Therefore, the source code used for this project is available here and should be inspected if in doubt or used to verify results. As common practice in science: be critical and never trust results blindly.
 
 ## License
 
