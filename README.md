@@ -18,13 +18,13 @@ Coming soon.
 ## Installation
 
 Get the latest version via GitHub:
-    | https://github.com/arcpp/arcpp
+    | https://github.com/StSchulze/ArcPP
 
 as a .zip package:
-   | https://github.com/arcpp/arcpp/archive/master.zip
+   | https://github.com/StSchulze/ArcPP/archive/master.zip
 
 or via git clone::
-   git clone https://github.com/arcpp/arcpp.git
+   git clone https://github.com/StSchulze/ArcPP.git
 
 ## How to use
 
@@ -37,7 +37,7 @@ As the project develops, a more extensive documentation via readthedocs will be 
 ## Questions and Participation
 
 If you encounter any problems you can open up issues at GitHub, or contact us directly by email.
-For any contributions, fork us at https://github.com/arcpp/arcpp and open up pull requests.
+For any contributions, fork us at https://github.com/StSchulze/ArcPP. and open up pull requests.
 
 ## Coprights
 
